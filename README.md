@@ -10,11 +10,17 @@ The project follows the complete Machine Learning lifecycle—from data preproce
 
 
 🎯 Project Objectives
+
 Predict diabetes based on patient health records.
+
 Perform data cleaning and preprocessing.
+
 Explore and visualize the dataset using EDA.
+
 Train a classification model using Support Vector Classifier (SVC).
+
 Evaluate the model using classification metrics.
+
 Build a reliable and reusable prediction system.
 
 
@@ -26,7 +32,7 @@ The objective of this project is to develop a Machine Learning model capable of 
 
 📊 Dataset Information
 
-Dataset: Pima Indians Diabetes Dataset
+Dataset: diabetes.csv
 
 The dataset consists of medical records collected from female patients of Pima Indian heritage.
 
@@ -52,24 +58,41 @@ Outcome - 	Target variable (0 = Non-Diabetic, 1 = Diabetic)
 
 
 🛠 Tech Stack
+
+
 Python
+
 Google Colab
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 Scikit-learn
+
 Jupyter Notebook
 
 
 📦 Python Libraries Used
+
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
 
+
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.svm import SVC
+
 from sklearn.metrics import accuracy_score
+
 
 
 
@@ -80,6 +103,7 @@ Imported the Pima Indians Diabetes Dataset.
 Loaded the dataset using Pandas.
 
 2. Data Exploration
+
 Performed initial dataset analysis using:
 
 shape()
