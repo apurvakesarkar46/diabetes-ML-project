@@ -334,7 +334,9 @@ AI-powered health monitoring systems
 Educational Machine Learning projects
 
 👨‍💻 Author
+
 --Apurva Kesarkar--
+
 Computer Science Engineer
 
 🔗 Connect & Project Post
