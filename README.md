@@ -1,4 +1,5 @@
 🩺 Diabetes Prediction using Machine Learning
+
 📖 Overview
 
 Diabetes is one of the fastest-growing chronic diseases worldwide. Early detection of diabetes enables timely medical intervention and helps reduce long-term health complications.
@@ -28,16 +29,25 @@ The objective of this project is to develop a Machine Learning model capable of 
 Dataset: Pima Indians Diabetes Dataset
 
 The dataset consists of medical records collected from female patients of Pima Indian heritage.
+
 Features
-Feature	with Description
+
 Pregnancies	- Number of pregnancies
+
 Glucose	- Plasma glucose concentration
+
 BloodPressure	- Diastolic blood pressure
+
 SkinThickness	- Skin fold thickness
+
 Insulin	- Serum insulin level
+
 BMI	- Body Mass Index
+
 DiabetesPedigreeFunction - 	Diabetes hereditary score
+
 Age	- Patient age
+
 Outcome - 	Target variable (0 = Non-Diabetic, 1 = Diabetic)
 
 
@@ -297,6 +307,11 @@ Educational Machine Learning projects
 --Apurva Kesarkar--
 Computer Science Engineer
 
+🔗 Connect & Project Post
+
+LinkedIn Project Post: https://www.linkedin.com/posts/apurva-kesarkar-8004a5422_machinelearning-artificialintelligence-python-activity-7484217885725204480-MpjQ?utm_source=share&utm_medium=member_android&rcm=ACoAAGs3IEABH3ErDcp0ssDv3sRp0iEn2ww-tA4
+LinkedIn Profile: https://www.linkedin.com/in/apurva-kesarkar-8004a5422
+GitHub: https://github.com/apurvakesarkar46
 
 Interests
 Artificial Intelligence
