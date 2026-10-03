@@ -1,105 +1,124 @@
-🩺 Diabetes Prediction using Machine Learning
+# 🩺 Diabetes Prediction using Machine Learning
 
-📖 Overview
+## 📖 Overview
 
-Diabetes is one of the fastest-growing chronic diseases worldwide. Early detection of diabetes enables timely medical intervention and helps reduce long-term health complications.
+Diabetes is a major chronic health condition that can lead to serious long-term complications when it is not identified and managed appropriately. Early identification of potential diabetes risk can support timely medical evaluation and preventive healthcare practices.
 
-This project presents an end-to-end Machine Learning solution for predicting diabetes using patient medical information. The model is built using the Support Vector Classifier (SVC) algorithm and trained on the Pima Indians Diabetes Dataset.
+This project presents an **end-to-end Machine Learning solution for diabetes prediction** using patient medical and clinical information. The model is developed using the **Support Vector Classifier (SVC)** algorithm and trained on the **Pima Indians Diabetes Dataset** to classify patients into diabetic and non-diabetic categories.
 
-The project follows the complete Machine Learning lifecycle—from data preprocessing and exploratory data analysis to model training, evaluation, and prediction.
+The project demonstrates the complete **Machine Learning lifecycle**, starting from data collection and exploration, followed by data preprocessing, exploratory data analysis, feature selection, feature standardization, model training, prediction, and performance evaluation.
+
+The implementation is developed using **Python, Pandas, NumPy, Matplotlib, and Scikit-learn**, with experimentation and model development carried out using **Jupyter Notebook and Google Colab**.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- Develop a Machine Learning model for diabetes prediction.
+- Analyze patient medical and clinical data.
+- Perform data exploration and preprocessing.
+- Identify patterns and relationships within the dataset.
+- Perform Exploratory Data Analysis (EDA) using visualizations.
+- Select relevant features for model training.
+- Standardize numerical features using `StandardScaler`.
+- Train a Support Vector Classifier (SVC).
+- Evaluate model performance using classification metrics.
+- Build a clear and reproducible Machine Learning workflow.
+
+---
+
+## 🧩 Problem Statement
+
+Diabetes can develop gradually, and identifying potential risk at an early stage can be important for timely medical evaluation.
+The objective of this project is to develop a **binary classification Machine Learning model** that analyzes selected patient health parameters and predicts whether a patient belongs to the diabetic or non-diabetic category.
+
+The project demonstrates how structured healthcare data can be processed and used to build a supervised Machine Learning classification model.
+
+---
 
 
-🎯 Project Objectives
+📊 Dataset 
 
-Predict diabetes based on patient health records.
-
-Perform data cleaning and preprocessing.
-
-Explore and visualize the dataset using EDA.
-
-Train a classification model using Support Vector Classifier (SVC).
-
-Evaluate the model using classification metrics.
-
-Build a reliable and reusable prediction system.
-
-
-
-
-❓ Problem Statement
-
-Diabetes is often diagnosed only after symptoms become severe. Healthcare professionals require efficient methods to assist in identifying individuals at risk.
-The objective of this project is to develop a Machine Learning model capable of predicting diabetes based on clinical parameters, supporting early diagnosis and preventive healthcare.
-
-
-
-
-📊 Dataset Information
-
-Dataset: diabetes.csv
+Dataset: [diabetes.csv](https://github.com/apurvakesarkar46/diabetes-ML-project/blob/main/diabetes.csv)
 
 The dataset consists of medical records collected from female patients of Pima Indian heritage.
 
-Features
-
-Pregnancies	- Number of pregnancies
-
-Glucose	- Plasma glucose concentration
-
-BloodPressure	- Diastolic blood pressure
-
-SkinThickness	- Skin fold thickness
-
-Insulin	- Serum insulin level
-
-BMI	- Body Mass Index
-
-DiabetesPedigreeFunction - 	Diabetes hereditary score
-
-Age	- Patient age
-
-Outcome - 	Target variable (0 = Non-Diabetic, 1 = Diabetic)
 
 
+### Dataset Features
 
+| Feature | Description |
+|---|---|
+| `Pregnancies` | Number of pregnancies |
+| `Glucose` | Plasma glucose concentration |
+| `BloodPressure` | Diastolic blood pressure |
+| `SkinThickness` | Triceps skin fold thickness |
+| `Insulin` | 2-Hour serum insulin |
+| `BMI` | Body Mass Index |
+| `DiabetesPedigreeFunction` | Diabetes pedigree function |
+| `Age` | Age of the patient |
+| `Outcome` | Diabetes classification |
 
-🛠 Tech Stack
+### Target Variable
 
+| Value | Meaning |
+|---|---|
+| `0` | Non-Diabetic |
+| `1` | Diabetic |
 
-Python
+---
 
-Google Colab
+## 🔍 Project at a Glance
 
-NumPy
+| Component | Details |
+|---|---|
+| **Problem Type** | Binary Classification |
+| **Dataset** | Pima Indians Diabetes Dataset |
+| **Input** | Clinical and demographic parameters |
+| **Target Variable** | `Outcome` |
+| **Classes** | Non-Diabetic / Diabetic |
+| **Machine Learning Algorithm** | Support Vector Classifier (SVC) |
+| **Preprocessing** | Data preparation and feature standardization |
+| **Visualization** | Exploratory Data Analysis and Histograms |
+| **Evaluation** | Accuracy Score and Classification Metrics |
+| **Programming Language** | Python |
+| **Development Environment** | Jupyter Notebook / Google Colab |
 
-Pandas
+---
 
-Matplotlib
+## 🛠️ Technology Stack
 
-Scikit-learn
+### Programming Language
+- Python
 
-Jupyter Notebook
+### Libraries
 
+- **NumPy** – Numerical computations
+- **Pandas** – Data manipulation and analysis
+- **Matplotlib** – Data visualization
+- **Scikit-learn** – Machine Learning and model evaluation
 
-📦 Python Libraries Used
+### Development Tools
 
+- Jupyter Notebook
+- Google Colab
+- Git & GitHub
+
+---
+
+## 📚 Libraries Used
+
+```python
 import numpy as np
-
 import pandas as pd
-
 import matplotlib.pyplot as plt
 
-
-
 from sklearn.model_selection import train_test_split
-
 from sklearn.preprocessing import StandardScaler
-
 from sklearn.svm import SVC
-
 from sklearn.metrics import accuracy_score
-
-
 
 
 ⚙️ Project Workflow
