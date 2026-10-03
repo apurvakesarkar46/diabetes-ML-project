@@ -389,10 +389,8 @@ Follow the five steps below to set up and run the project.
 
 Clone the project from GitHub using:
 
-```bash
-git clone : [https://github.com/apurvakesarkar46/diabetes-ML-project.git](https://r.search.yahoo.com/_ylt=A2RTF.M7OcFqHAMAnLtXNyoA;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDMgR2dGlkAwRzZWMDc3I-/RV=2/RE=1792257596/RO=10/RU=https%3a%2f%2fgithub.com%2fapurvakesarkar46%2fdiabetes-ML-project/RK=2/RS=Gw6OQ.iCbGPiC01mno8ItRmkLlo-)
+[Diabetes ML Project](https://github.com/apurvakesarkar46/diabetes-ML-project)
 
-```
 
 ### 2️⃣ Navigate to the Project Directory
 ```bash
@@ -414,9 +412,9 @@ Start Jupyter Notebook from the project directory:
 jupyter notebook
 ```
 Then open:
-```bash
+
 Diabetes_Prediction.ipynb
-```
+
 Run the notebook cells sequentially to execute the Machine Learning workflow.
 
 ### 5️⃣ Run Using Google Colab
