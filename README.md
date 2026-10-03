@@ -413,11 +413,13 @@ jupyter notebook
 ```
 Then open:
 
-Diabetes_Prediction.ipynb
+[Diabetes_Prediction.ipynb
+](https://github.com/apurvakesarkar46/diabetes-ML-project/blob/main/Diabetes_Task_1.ipynb)
+
 
 Run the notebook cells sequentially to execute the Machine Learning workflow.
 
-### 5️⃣ Run Using Google Colab
+### or  5️⃣ Run Using Google Colab
 
 Alternatively, you can open Diabetes_Prediction.ipynb directly in Google Colab and execute the notebook without setting up Jupyter Notebook locally.
 
