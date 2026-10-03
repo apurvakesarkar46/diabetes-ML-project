@@ -120,7 +120,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
+````
 
+````
 ⚙️ Project Workflow
 
 1. Data Collection
@@ -219,55 +221,114 @@ Recall
 F1 Score
 Confusion Matrix
 
-
+````
 
 **📈 Project Pipeline**
-Dataset
+                 ┌──────────────────────┐
+                 │       Dataset        │
+                 │ Pima Diabetes Data   │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │   Data Exploration   │
+                 │ Structure & Summary  │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Data Preprocessing   │
+                 │ Cleaning & Validation │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Exploratory Data     │
+                 │ Analysis (EDA)       │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Feature Selection    │
+                 │ X → Input Features   │
+                 │ y → Outcome          │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Standardization      │
+                 │    StandardScaler    │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │   Train-Test Split   │
+                 │       80 / 20        │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │       SVC Model      │
+                 │      Training        │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │      Prediction      │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │   Model Evaluation   │
+                 │    Accuracy Score    │
+                 └──────────────────────┘
 
-↓
-
-Data Cleaning
-
-↓
-
-Exploratory Data Analysis
-
-↓
-
-Feature Selection
-
-↓
-
-Data Standardization
-
-↓
-
-Train-Test Split
-
-↓
-
-Support Vector Classifier (SVC)
-
-↓
-
-Model Evaluation
-
-↓
-
-Prediction
 
 
+## ✨ Features
 
-✨ Features
-End-to-End Machine Learning Project
-Data Cleaning and Preprocessing
-Exploratory Data Analysis
-Feature Scaling
-Model Training
-Model Evaluation
-Diabetes Prediction
-Beginner-Friendly Code
-Well-Structured Workflow
+This project includes the following key features:
+
+- **End-to-End Machine Learning Project**  
+  Covers the complete Machine Learning workflow from data preparation to prediction and evaluation.
+
+- **Data Cleaning and Preprocessing**  
+  Prepares the dataset by checking missing values, data types, and inconsistencies before model training.
+
+- **Exploratory Data Analysis (EDA)**  
+  Uses data analysis and visualizations to understand feature distributions and identify patterns within the dataset.
+
+- **Feature Scaling**  
+  Applies `StandardScaler` to standardize numerical features before training the SVC model.
+
+- **Machine Learning Model Training**  
+  Implements a **Support Vector Classifier (SVC)** for binary classification.
+
+- **Model Evaluation**  
+  Evaluates the trained model using **Accuracy Score** and provides scope for additional classification metrics.
+
+- **Diabetes Prediction**  
+  Predicts whether a patient belongs to the diabetic or non-diabetic class based on the provided input features.
+
+- **Beginner-Friendly Code**  
+  Uses clear and structured Python code that is easy to understand and follow.
+
+- **Well-Structured Workflow**  
+  Organizes the project into logical stages including data exploration, preprocessing, EDA, feature selection, model training, prediction, and evaluation.
+
+### 🔑 Key Highlights
+
+| Feature | Description |
+|---|---|
+| **Machine Learning** | Support Vector Classifier (SVC) |
+| **Data Processing** | Cleaning, validation, and preprocessing |
+| **EDA** | Feature analysis and visualization |
+| **Feature Scaling** | StandardScaler |
+| **Classification** | Binary classification |
+| **Prediction** | Diabetic / Non-Diabetic |
+| **Evaluation** | Accuracy Score |
+| **Implementation** | Python |
+| **Environment** | Jupyter Notebook / Google Colab |
 
 
 
@@ -292,33 +353,60 @@ Diabetes-Prediction-ML/
     └── accuracy_score.png
 
 
-🚀 Installation
+## 🚀 Installation
 
-Clone the repository
+Follow the five steps below to set up and run the project.
 
+### 1️⃣ Clone the Repository
+
+Clone the project from GitHub using:
+
+```bash
 git clone https://github.com/apurvakesarkar46/diabetes-ML-project.git
 
-Move to the project directory
+```
 
+### 2️⃣ Navigate to the Project Directory
+```bash
 cd Diabetes-Prediction-ML
 
-Install dependencies
+```
+### 3️⃣ Install Dependencies
 
+Install all the required Python libraries using the requirements.txt file:
+```bash
 pip install -r requirements.txt
 
-Run Jupyter Notebook
+```
 
+### 4️⃣ Launch Jupyter Notebook
+
+Start Jupyter Notebook from the project directory:
+```bash
 jupyter notebook
+```
+Then open:
+```bash
+Diabetes_Prediction.ipynb
+```
+Run the notebook cells sequentially to execute the Machine Learning workflow.
 
-or open the notebook directly in Google Colab.
+### 5️⃣ Run Using Google Colab
+
+Alternatively, you can open Diabetes_Prediction.ipynb directly in Google Colab and execute the notebook without setting up Jupyter Notebook locally.
+
+Note: Make sure Python and pip are installed and configured on your system before following the installation steps.
 
 
-📋 Requirements
-numpy
-pandas
-matplotlib
-scikit-learn
-jupyter
+The project requires the following Python libraries:
+
+| Library | Purpose |
+|---|---|
+| **NumPy** | Numerical computations and array operations |
+| **Pandas** | Data loading, cleaning, and analysis |
+| **Matplotlib** | Data visualization and exploratory analysis |
+| **Scikit-learn** | Data preprocessing, model training, and evaluation |
+| **Jupyter Notebook** | Interactive development and execution of the ML workflow |
 
 
 
@@ -352,23 +440,17 @@ Medical research
 AI-powered health monitoring systems
 Educational Machine Learning projects
 
-👨‍💻 Author
+## 👨‍💻 Author
 
---Apurva Kesarkar--
+### **Apurva Kesarkar**
+**Computer Science Engineer**
 
-Computer Science Engineer
+---
 
-🔗 Connect & Project Post
+## 🔗 Connect With Me
 
-LinkedIn Project Post: https://www.linkedin.com/posts/apurva-kesarkar-8004a5422_machinelearning-artificialintelligence-python-activity-7484217885725204480-MpjQ?utm_source=share&utm_medium=member_android&rcm=ACoAAGs3IEABH3ErDcp0ssDv3sRp0iEn2ww-tA4
+- **LinkedIn Profile:** [Apurva Kesarkar](https://www.linkedin.com/in/apurva-kesarkar-8004a5422)
+- **GitHub:** [apurvakesarkar46](https://github.com/apurvakesarkar46)
+- **Project Post:** [View Project on LinkedIn](https://www.linkedin.com/posts/apurva-kesarkar-8004a5422_machinelearning-artificialintelligence-python-activity-7484217885725204480-MpjQ)
 
-LinkedIn Profile: https://www.linkedin.com/in/apurva-kesarkar-8004a5422
-
-GitHub: https://github.com/apurvakesarkar46
-
-Interests
-Artificial Intelligence
-Machine Learning
-Data Science
-Healthcare AI
-Python Development
+---
